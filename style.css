@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+                                                                            /* Transform CSS Apply */
+
+.container, .inner{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid green;
+    margin-top: 5px;
+    
+}
+
+.inner{
+    background-color: indianred;
+    /* transform: scale(0.5); => 1=100%  => aikhane aro x,y use kore kora jabe */
+    /* transform: rotate(45deg);         => aikhane aro x,y use kore kora jabe */
+    transform:scale(0.5)rotate(45deg)translatey(50px);
+    /* transform: translate(100px);       => aikhane aro x,y use kore kora jabe */
+    
+    
+}
